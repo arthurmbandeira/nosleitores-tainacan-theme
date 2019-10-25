@@ -48,9 +48,9 @@ if ( ! function_exists( 'tainacan_setup' ) ) {
 		 * Custom logo to change the logo image
 		 */
 		$logo_args = array(
-			'height'      => 30,
-			'width'       => 175,
-			'flex-height' => false,
+			'height'      => 100,
+			'width'       => 300,
+			'flex-height' => true,
 			'flex-width'  => true,
 		);
 		add_theme_support( 'custom-logo', $logo_args );

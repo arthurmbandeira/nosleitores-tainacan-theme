@@ -11,7 +11,7 @@ Text Domain: tainacan-interface
 */
 
 body{
-    font-family: 'Roboto' !important;
+    font-family: 'Roboto';
     overflow-x: hidden;
     a{
         color: #298596;
@@ -831,3 +831,5 @@ nav{
 @import "_header-taxonomy";
 
 @import "_lightbox";
+
+@import "_custom";
